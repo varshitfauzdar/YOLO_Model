@@ -138,4 +138,25 @@ See the full list in the YOLOv8 documentation.
 - Use a smaller model
 - Filter by specific classes only
 
+## Web Interface (Streamlit)
+
+A user-friendly web interface is available for easy video analysis:
+
+```bash
+streamlit run app.py
+```
+
+### Features:
+- 🎥 Upload videos through the web interface
+- 🔍 Configure detection settings in the sidebar
+- ⏱️ View timestamps in an interactive table
+- 🎯 Jump to first appearance of objects
+- 📊 Search and filter timestamps
+- 📥 Export results as JSON or CSV
+
+See [STREAMLIT_README.md](STREAMLIT_README.md) for detailed usage instructions.
+
+## License
+
+This project uses the Ultralytics YOLOv8 library. Please refer to their license for usage terms.
 
