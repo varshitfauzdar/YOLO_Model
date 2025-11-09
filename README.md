@@ -45,23 +45,6 @@ python extract_timestamps.py --video video.mp4 --conf 0.5
 python extract_timestamps.py --video video.mp4 --model yolov8s.pt
 ```
 
-Available models:
-- `yolov8n.pt` - Nano (fastest, least accurate)
-- `yolov8s.pt` - Small
-- `yolov8m.pt` - Medium
-- `yolov8l.pt` - Large
-- `yolov8x.pt` - XLarge (slowest, most accurate)
-
-**Export as CSV:**
-```bash
-python extract_timestamps.py --video video.mp4 --format csv --output results.csv
-```
-
-**Complete example:**
-```bash
-python extract_timestamps.py --video sample.mp4 --model yolov8m.pt --conf 0.3 --classes person car --format json --output detections.json
-```
-
 ## Output Format
 
 ### JSON Output
@@ -154,9 +137,5 @@ See the full list in the YOLOv8 documentation.
 - Use GPU acceleration
 - Use a smaller model
 - Filter by specific classes only
-
-## License
-
-This project uses the Ultralytics YOLOv8 library. Please refer to their license for usage terms.
 
 
